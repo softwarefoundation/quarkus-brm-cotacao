@@ -10,6 +10,8 @@ repositories {
 
 dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
+    implementation 'io.quarkus:quarkus-rest-client-reactive-jackson'
+    implementation 'io.quarkus:quarkus-resteasy-reactive-jackson'
     implementation 'io.quarkus:quarkus-vertx'
     implementation 'io.quarkus:quarkus-flyway'
     implementation 'io.quarkus:quarkus-jdbc-h2'
