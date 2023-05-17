@@ -1,8 +1,18 @@
-# quarkus-brm-cotacao
+# Quarkus Cotação
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+# Banco de dados
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+Conectar no banco de dados H2 com Dbeaver
+
+As configurações do banco de dados estão definidas no arquivo: application.properties
+
+1. Criar uma nova conexão para o banco H2
+1. Selecione a opção H2 Embedded
+1. Path: **_mem:cotacao;DB_CLOSE_DELAY=-1_**
+1. Username: admin
+1. Password: admin
+
+
 
 ## Running the application in dev mode
 
