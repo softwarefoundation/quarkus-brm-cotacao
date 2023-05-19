@@ -16,6 +16,7 @@ dependencies {
     implementation 'io.quarkus:quarkus-undertow'
     implementation 'io.quarkus:quarkus-flyway'
     implementation 'io.quarkus:quarkus-jdbc-h2'
+    implementation 'io.quarkus:quarkus-quartz'
     implementation 'io.quarkus:quarkus-hibernate-orm-panache'
     implementation 'io.smallrye.reactive:smallrye-reactive-messaging-kafka'
     implementation 'io.quarkus:quarkus-arc'
